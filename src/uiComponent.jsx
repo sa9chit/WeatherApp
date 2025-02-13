@@ -167,12 +167,9 @@ export const UiComponent = () => {
                 Forecast
               </h3>
               <div className="bg-amber-100 h-[40vh] rounded-xl flex items-center justify-center">
-                <Link
-                  to="ForeCast"
-                  className="bg-amber-600 cursor-pointer tracking-tighter text-white font-bold px-5 py-1 rounded-[5px]"
-                >
+                <Button className="bg-amber-600 cursor-pointer tracking-tighter text-white font-bold px-5 py-1 rounded-[5px]">
                   10 days
-                </Link>
+                </Button>
               </div>
             </div>
           </div>
